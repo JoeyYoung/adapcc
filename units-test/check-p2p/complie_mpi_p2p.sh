@@ -1,0 +1,1 @@
+nvcc -L/home/xyzhao/openmpi/lib -I/home/xyzhao/openmpi/include -lmpi -lpthread -lnuma -Xcompiler -fPIC -o check_mpi_p2p check_mpi_p2p.cu

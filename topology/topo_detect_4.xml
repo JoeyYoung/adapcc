@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<cpu>
+<pcie>
+<gpu id="0"/>
+<gpu id="1"/>
+<nic/>
+</pcie>
+<pcie>
+<gpu id="2"/>
+<gpu id="3"/>
+</pcie>
+</cpu>

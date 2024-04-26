@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<trees>
+    <root id="0" ip="10.28.1.31">
+        <gpu id="1" ip="10.28.1.31">
+            <gpu id="2" ip="10.28.1.31"/>
+            <gpu id="3" ip="10.28.1.31"/>
+        </gpu>
+    </root>
+    <root id="3" ip="10.28.1.31">
+        <gpu id="2" ip="10.28.1.31">
+            <gpu id="1" ip="10.28.1.31"/>
+            <gpu id="0" ip="10.28.1.31"/>
+        </gpu>
+    </root>
+</trees>

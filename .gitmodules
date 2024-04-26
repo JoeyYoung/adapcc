@@ -1,0 +1,15 @@
+[submodule "third-party/nccl"]
+	path = third-party/nccl
+	url = https://github.com/NVIDIA/nccl.git
+[submodule "third-party/openmpi"]
+	path = third-party/openmpi
+	url = https://github.com/open-mpi/ompi.git
+[submodule "third-party/ucx"]
+	path = third-party/ucx
+	url = https://github.com/openucx/ucx.git
+[submodule "third-party/msccl"]
+	path = third-party/msccl
+	url = https://github.com/microsoft/msccl-tools.git
+[submodule "third-party/fastmoe"]
+	path = third-party/fastmoe
+	url = https://github.com/laekov/fastmoe.git

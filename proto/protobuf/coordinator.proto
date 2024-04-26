@@ -1,0 +1,43 @@
+/* 
+Service 1:
+    Requet: Worker relay controller request in each step
+    Response: active list
+
+Service 2: 
+    Request: Hook ready request
+    Response: active list
+*/
+syntax = "proto3";
+
+option java_multiple_files = true;
+option java_package = "io.grpc.examples.test";
+option java_outer_classname = "CoordinatorProto";
+option objc_class_prefix = "Coorditor";
+
+package coordinator;
+
+// 服务类，需要开实例用来通信
+service Coordinator {
+    rpc controller_fetch(cont_request) returns (cont_response){}
+    rpc hook_fetch(hook_request) returns (hook_response) {}
+}
+
+
+message cont_request{
+    int32 step = 1;
+    int32 world_rank = 2;
+}
+
+message cont_response{
+    repeated int32 active_list = 1;
+    int32 status = 2;
+}
+
+message hook_request{
+    int32 step = 1;
+    int32 world_rank = 2;
+}
+
+message hook_response{
+    repeated int32 active_list = 1;
+}

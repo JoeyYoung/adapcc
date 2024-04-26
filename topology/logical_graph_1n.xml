@@ -1,0 +1,10 @@
+<graph version='g15-4g'>
+    <server id="0" ip="10.28.1.30">
+        <nic id="0">
+            <gpu id="0"/>
+            <gpu id="1"/>
+            <gpu id="2"/>
+            <gpu id="3"/>
+        </nic>
+    </server>
+</graph>

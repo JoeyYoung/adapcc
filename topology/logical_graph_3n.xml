@@ -1,0 +1,26 @@
+<graph>
+    <server id="0" ip="10.28.1.30">
+        <nic id="0">
+            <gpu id="0"/>
+            <gpu id="1"/>
+            <gpu id="2"/>
+            <gpu id="3"/>
+        </nic>
+    </server>
+    <server id="1" ip="10.28.1.31">
+        <nic id="1">
+            <gpu id="4"/>
+            <gpu id="5"/>
+            <gpu id="6"/>
+            <gpu id="7"/>
+        </nic>
+    </server>
+    <server id="2" ip="10.28.1.32">
+        <nic id="2">
+            <gpu id="8"/>
+            <gpu id="9"/>
+            <gpu id="10"/>
+            <gpu id="11"/>
+        </nic>
+    </server>
+</graph>
