@@ -6,7 +6,7 @@ AdapCC is a communication library that dynamically adapts to resource heterogene
 
 - **Profiling.** adaptive to dynamic network changes, by coordinating workers to enable profiling on the fly.
 
-- **Relay Control.** adaptive to computation stragglers, by allowing an arbitrary subset of workers to perform a collective.
+- **Relay Control.** adaptive to computation stragglers, by allowing an arbitrary subset of workers to perform a collective. Non-active GPUs are controlled as relays for data transfers.
 
 - **Fault Tolerance.** continued communication without being blocked (hang) by the straggler/faulty.
 
