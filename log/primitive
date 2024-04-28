@@ -69,10 +69,6 @@ MPI Init...
 [Rank 0] done infer task 3.
 [Rank 1] done infer task 3.
 [Rank 0] save detected topology.
-[Rank 1]detect time=5966.00(ms)
-[Rank 2]detect time=4572.00(ms)
-[Rank 0]detect time=14187.00(ms)
-[Rank 3]detect time=4977.00(ms)
 detected topology dispatched.
 [Rank 3]World Size 4, Local Size 3.
 [Rank 3]Profiling starts.
@@ -102,13 +98,9 @@ check inter task list:
 [Rank2]Socket IPC Connections Built.
 [Rank3]Socket IPC Connections Built.
 [Rank 1] Done intra tasks, start inter tasks.
-[Rank 1]profiling time=  1.00(ms)
 [Rank 2] Done intra tasks, start inter tasks.
-[Rank 2]profiling time=  1.00(ms)
 [Rank 0] Done intra tasks, start inter tasks.
-[Rank 0]profiling time=  2.00(ms)
 [Rank 3] Done intra tasks, start inter tasks.
-[Rank 3]profiling time=  1.00(ms)
 profiled topology sent to master.
 strategy dispatched.
 [Rank 3]World Size 4, Local Size 3.
