@@ -1,208 +1,867 @@
-ip_table.txt                                                                 100%   44    88.9KB/s   00:00
+ip_table.txt                                                                         100%   44    52.4KB/s   00:00
 ip table dispatched.
 MPI Init...
 MPI Init...
 MPI Init...
-[net-g16:509700] mca: base: components_register: registering framework pml components
-[net-g16:509700] mca: base: components_register: found loaded component ucx
-[net-g16:509700] mca: base: components_register: component ucx register function successful
-[net-g16:509700] mca: base: components_open: opening pml components
-[net-g16:509700] mca: base: components_open: found loaded component ucx
-[net-g16:509703] mca: base: components_register: registering framework pml components
-[net-g16:509703] mca: base: components_register: found loaded component ucx
-[net-g16:509703] mca: base: components_register: component ucx register function successful
-[net-g16:509703] mca: base: components_open: opening pml components
-[net-g16:509703] mca: base: components_open: found loaded component ucx
-[net-g16:509702] mca: base: components_register: registering framework pml components
-[net-g16:509702] mca: base: components_register: found loaded component ucx
-[net-g16:509702] mca: base: components_register: component ucx register function successful
-[net-g16:509702] mca: base: components_open: opening pml components
-[net-g16:509702] mca: base: components_open: found loaded component ucx
-[net-g16:509700] mca: base: components_open: component ucx open function successful
-[net-g16:509700] select: initializing pml component ucx
-[net-g16:509703] mca: base: components_open: component ucx open function successful
-[net-g16:509702] mca: base: components_open: component ucx open function successful
-[net-g16:509703] select: initializing pml component ucx
-[net-g16:509702] select: initializing pml component ucx
-[net-g16:509700] select: init returned priority 19
-[net-g16:509700] selected ucx best priority 19
-[net-g16:509700] select: component ucx selected
-[net-g16:509703] select: init returned priority 19
-[net-g16:509703] selected ucx best priority 19
-[net-g16:509703] select: component ucx selected
-[net-g16:509702] select: init returned priority 19
-[net-g16:509702] selected ucx best priority 19
-[net-g16:509702] select: component ucx selected
+[net-g16:1535259] mca: base: components_register: registering framework pml components
+[net-g16:1535259] mca: base: components_register: found loaded component ucx
+[net-g16:1535259] mca: base: components_register: component ucx register function successful
+[net-g16:1535259] mca: base: components_open: opening pml components
+[net-g16:1535259] mca: base: components_open: found loaded component ucx
+[net-g16:1535257] mca: base: components_register: registering framework pml components
+[net-g16:1535257] mca: base: components_register: found loaded component ucx
+[net-g16:1535257] mca: base: components_register: component ucx register function successful
+[net-g16:1535257] mca: base: components_open: opening pml components
+[net-g16:1535257] mca: base: components_open: found loaded component ucx
+[net-g16:1535258] mca: base: components_register: registering framework pml components
+[net-g16:1535258] mca: base: components_register: found loaded component ucx
+[net-g16:1535258] mca: base: components_register: component ucx register function successful
+[net-g16:1535258] mca: base: components_open: opening pml components
+[net-g16:1535258] mca: base: components_open: found loaded component ucx
+[net-g16:1535257] mca: base: components_open: component ucx open function successful
+[net-g16:1535259] mca: base: components_open: component ucx open function successful
+[net-g16:1535258] mca: base: components_open: component ucx open function successful
+[net-g16:1535257] select: initializing pml component ucx
+[net-g16:1535259] select: initializing pml component ucx
+[net-g16:1535258] select: initializing pml component ucx
+[net-g16:1535257] select: init returned priority 19
+[net-g16:1535257] selected ucx best priority 19
+[net-g16:1535257] select: component ucx selected
+[net-g16:1535259] select: init returned priority 19
+[net-g16:1535259] selected ucx best priority 19
+[net-g16:1535259] select: component ucx selected
+[net-g16:1535258] select: init returned priority 19
+[net-g16:1535258] selected ucx best priority 19
+[net-g16:1535258] select: component ucx selected
 MPI Init...
-[net-g16:509699] mca: base: components_register: registering framework pml components
-[net-g16:509699] mca: base: components_register: found loaded component ucx
-[net-g16:509699] mca: base: components_register: component ucx register function successful
-[net-g16:509699] mca: base: components_open: opening pml components
-[net-g16:509699] mca: base: components_open: found loaded component ucx
-[net-g16:509699] mca: base: components_open: component ucx open function successful
-[net-g16:509699] select: initializing pml component ucx
-[net-g16:509699] select: init returned priority 19
-[net-g16:509699] selected ucx best priority 19
-[net-g16:509699] select: component ucx selected
-[Rank 0]World Size 4, Local Size 0.
-[Rank 0]Allreduce threads starts.
+[net-g16:1535256] mca: base: components_register: registering framework pml components
+[net-g16:1535256] mca: base: components_register: found loaded component ucx
+[net-g16:1535256] mca: base: components_register: component ucx register function successful
+[net-g16:1535256] mca: base: components_open: opening pml components
+[net-g16:1535256] mca: base: components_open: found loaded component ucx
+[net-g16:1535256] mca: base: components_open: component ucx open function successful
+[net-g16:1535256] select: initializing pml component ucx
+[net-g16:1535256] select: init returned priority 19
+[net-g16:1535256] selected ucx best priority 19
+[net-g16:1535256] select: component ucx selected
 [Rank 2]World Size 4, Local Size 2.
-[Rank 2]Allreduce threads starts.
-[Rank 3]World Size 4, Local Size 3.
-[Rank 3]Allreduce threads starts.
+[Rank 2]Detecting starts.
+[Rank 0]World Size 4, Local Size 0.
+[Rank 0]Detecting starts.
 [Rank 1]World Size 4, Local Size 1.
-[Rank 1]Allreduce threads starts.
+[Rank 1]Detecting starts.
+[Rank 3]World Size 4, Local Size 3.
+[Rank 3]Detecting starts.
 [Rank0]Socket IPC Connections Built.
 [Rank1]Socket IPC Connections Built.
 [Rank2]Socket IPC Connections Built.
 [Rank3]Socket IPC Connections Built.
-[Rank 1]Open shared memory 819235 for event records.
-[Rank 0]Open shared memory 819236 for event records.
-[Rank 0]Open shared memory 819235 for event records.
-[Rank 3]Open shared memory 819236 for event records.
-[Rank 3]Open shared memory 819235 for event records.
-[Rank 1]Open shared memory 819236 for event records.
-[Rank 2]Open shared memory 819235 for event records.
-[Rank 2]Open shared memory 819236 for event records.
+[Rank 0] done infer task 1.
+[Rank 2] done infer task 1.
+[Rank 1] done infer task 1.
+[Rank 3] done infer task 1.
+[Rank 1] done infer task 2.
+[Rank 3] done infer task 2.
+[Rank 2] done infer task 2.
+[Rank 0] done infer task 2.
+[Rank 2] done infer task 3.
+[Rank 3] done infer task 3.
+[Rank 0] done infer task 3.
+[Rank 1] done infer task 3.
+[Rank 0] save detected topology.
+detected topology dispatched.
+[Rank 3]World Size 4, Local Size 3.
+[Rank 3]Profiling starts.
+[Rank 1]World Size 4, Local Size 1.
+[Rank 1]Profiling starts.
+[Rank 2]World Size 4, Local Size 2.
+[Rank 2]Profiling starts.
+[Rank 0]World Size 4, Local Size 0.
+[Rank 0]Profiling starts.
+[Rank 0] Done packing tasks.
+check intra task list:
+	ip10.28.1.31:src0 -> ip10.28.1.31:dst1 : type 0
+	ip10.28.1.31:src0 -> ip10.28.1.31:dst1 : type 1
+	ip10.28.1.31:src0 -> ip10.28.1.31:dst2 : type 0
+	ip10.28.1.31:src0 -> ip10.28.1.31:dst2 : type 1
+	ip10.28.1.31:src0 -> ip10.28.1.31:dst3 : type 0
+	ip10.28.1.31:src0 -> ip10.28.1.31:dst3 : type 1
+	ip10.28.1.31:src1 -> ip10.28.1.31:dst2 : type 0
+	ip10.28.1.31:src1 -> ip10.28.1.31:dst2 : type 1
+	ip10.28.1.31:src1 -> ip10.28.1.31:dst3 : type 0
+	ip10.28.1.31:src1 -> ip10.28.1.31:dst3 : type 1
+	ip10.28.1.31:src2 -> ip10.28.1.31:dst3 : type 0
+	ip10.28.1.31:src2 -> ip10.28.1.31:dst3 : type 1
+check inter task list:
+[Rank0]Socket IPC Connections Built.
+[Rank1]Socket IPC Connections Built.
+[Rank2]Socket IPC Connections Built.
+[Rank3]Socket IPC Connections Built.
+[Rank 1] Done intra tasks, start inter tasks.
+[Rank 2] Done intra tasks, start inter tasks.
+[Rank 0] Done intra tasks, start inter tasks.
+[Rank 3] Done intra tasks, start inter tasks.
+profiled topology sent to master.
+strategy dispatched.
+[Rank 2]World Size 4, Local Size 2.
+[Rank 2]Allreduce threads starts.
+[Rank 1]World Size 4, Local Size 1.
+[Rank 1]Allreduce threads starts.
+[Rank 0]World Size 4, Local Size 0.
+[Rank 0]Allreduce threads starts.
+[Rank 3]World Size 4, Local Size 3.
+[Rank 3]Allreduce threads starts.
+[Rank0]Socket IPC Connections Built.
+[Rank1]Socket IPC Connections Built.
+[Rank3]Socket IPC Connections Built.
+[Rank2]Socket IPC Connections Built.
+[Rank 1]Open shared memory 425985 for event records.
+[Rank 1]Open shared memory 425986 for event records.
+[Rank 0]Open shared memory 425985 for event records.
+[Rank 2]Open shared memory 425985 for event records.
+[Rank 2]Open shared memory 425986 for event records.
+[Rank 0]Open shared memory 425986 for event records.
+[Rank 3]Open shared memory 425985 for event records.
+[Rank 3]Open shared memory 425986 for event records.
+[Rank 3]global init done.
 [Rank 0]global init done.
 [Rank 1]global init done.
 [Rank 2]global init done.
-[Rank 3]global init done.
-[Rank 2]transmission context setup time= 17.00(ms)
-[Rank 1]transmission context setup time= 19.00(ms)
-[Rank 3]transmission context setup time= 11.00(ms)
-[Rank 0]transmission context setup time= 14.00(ms)
-[Rank 3]hook active: [3]
-[Rank 3]tensor float number 138357544, 553430176 bytes, chunk bytes 4194304
-[Rank 2]Controller active: [3]
-[Rank 3]Controller active: [3]
-[Rank 1]Controller active: [3]
-[Rank 0]Controller active: [3]
-[Rank 1]hook active: [3]
-[Rank 1]tensor float number 138357544, 553430176 bytes, chunk bytes 4194304
-[Rank 2]hook active: [3]
+[Rank 3]transmission context setup time=  7.00(ms)
+[Rank 0]transmission context setup time= 24.00(ms)
+[Rank 1]transmission context setup time= 20.00(ms)
+[Rank 2]transmission context setup time= 19.00(ms)
+[Rank 2]hook active: [0, 2]
 [Rank 2]tensor float number 138357544, 553430176 bytes, chunk bytes 4194304
-[Rank 0]hook active: [3]
+[Rank 2]Controller active: [0, 2]
+[Rank 3]Controller active: [0, 2]
+[Rank 1]Controller active: [0, 2]
+[Rank 0]hook active: [0, 2]
 [Rank 0]tensor float number 138357544, 553430176 bytes, chunk bytes 4194304
-[Rank 3]enqueue: 0x7efd86000000
-[Rank 1]enqueue: 0x7fdb2c000000
-[Rank 2]enqueue: 0x7f941a000000
-[Rank 0]enqueue: 0x7f4174000000
-[Rank 2]fetch: address 0x7f941a000000, tranSize: 138357544, tranChunkNum: 131
-[Rank 2]Relay GPU Control: (Recv: 1, Local: 0, Kernel: 0, Send: 1)
-[Rank 3]fetch: address 0x7efd86000000, tranSize: 138357544, tranChunkNum: 131
-[Rank 3]Relay GPU Control: (Recv: 0, Local: 1, Kernel: 0, Send: 1)
-[Rank 1]fetch: address 0x7fdb2c000000, tranSize: 138357544, tranChunkNum: 131
+[Rank 0]Controller active: [0, 2]
+[Rank 1]hook active: [0, 2]
+[Rank 1]tensor float number 138357544, 553430176 bytes, chunk bytes 4194304
+[Rank 3]hook active: [0, 2]
+[Rank 3]tensor float number 138357544, 553430176 bytes, chunk bytes 4194304
+[Rank 2]enqueue: 0x7efafa000000
+[Rank 0]enqueue: 0x7f4456000000
+[Rank 1]enqueue: 0x7f9322000000
+[Rank 3]enqueue: 0x7ff0a8000000
+[Rank 1]fetch: address 0x7f9322000000, tranSize: 138357544, tranChunkNum: 131
 [Rank 1]Relay GPU Control: (Recv: 1, Local: 0, Kernel: 0, Send: 1)
-[Rank 0]fetch: address 0x7f4174000000, tranSize: 138357544, tranChunkNum: 131
-[Rank 0]Relay GPU Control: (Recv: 1, Local: 0, Kernel: 0, Send: 0)
+[Rank 0]fetch: address 0x7f4456000000, tranSize: 138357544, tranChunkNum: 131
+[Rank 0]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 0)
+[Rank 3]fetch: address 0x7ff0a8000000, tranSize: 138357544, tranChunkNum: 131
+[Rank 3]Relay GPU Control: (Recv: 0, Local: 0, Kernel: 0, Send: 0)
 [Rank 3]reduce work elem done.
+[Rank 2]fetch: address 0x7efafa000000, tranSize: 138357544, tranChunkNum: 131
+[Rank 2]Relay GPU Control: (Recv: 0, Local: 1, Kernel: 0, Send: 1)
 [Rank 2]reduce work elem done.
 [Rank 1]reduce work elem done.
 [Rank 0]reduce work elem done.
-[Rank 2]allreduce time=2298.00(ms)
-[Rank 3]allreduce time=2298.00(ms)
-[Rank 1]allreduce time=1949.00(ms)
-[Rank 0]allreduce time=1557.00(ms)
-======== step 0 	 loss 6.758
-[Rank 2]hook active: [3, 2, 0, 1]
-[Rank 2]tensor float number 4097000, 16388000 bytes, chunk bytes 4194304
+======== step 0 	 loss 6.838
 [Rank 3]hook active: [3, 2, 0, 1]
 [Rank 3]tensor float number 4097000, 16388000 bytes, chunk bytes 4194304
+[Rank 2]hook active: [3, 2, 0, 1]
+[Rank 2]tensor float number 4097000, 16388000 bytes, chunk bytes 4194304
+[Rank 1]Controller active: [3, 2, 0, 1]
+[Rank 2]Controller active: [3, 2, 0, 1]
 [Rank 1]hook active: [3, 2, 0, 1]
-[Rank 3]Controller active: [3, 2, 0, 1]
 [Rank 1]tensor float number 4097000, 16388000 bytes, chunk bytes 4194304
+[Rank 0]Controller active: [3, 2, 0, 1]
+[Rank 3]Controller active: [3, 2, 0, 1]
 [Rank 0]hook active: [3, 2, 0, 1]
 [Rank 0]tensor float number 4097000, 16388000 bytes, chunk bytes 4194304
-[Rank 1]Controller active: [3, 2, 0, 1]
-[Rank 0]Controller active: [3, 2, 0, 1]
-[Rank 2]Controller active: [3, 2, 0, 1]
-[Rank 3]enqueue: 0x7efda8000000
-[Rank 1]enqueue: 0x7fdb4e000000
-[Rank 0]enqueue: 0x7f4196000000
-[Rank 2]enqueue: 0x7f943c000000
-[Rank 0]fetch: address 0x7f4196000000, tranSize: 4097000, tranChunkNum: 3
-[Rank 0]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 0)
-[Rank 3]fetch: address 0x7efda8000000, tranSize: 4097000, tranChunkNum: 3
+[Rank 2]enqueue: 0x7efb1c000000
+[Rank 1]enqueue: 0x7f9344000000
+[Rank 3]enqueue: 0x7ff0ca000000
+[Rank 0]enqueue: 0x7f4478000000
+[Rank 3]fetch: address 0x7ff0ca000000, tranSize: 4097000, tranChunkNum: 3
 [Rank 3]Relay GPU Control: (Recv: 0, Local: 1, Kernel: 0, Send: 1)
-[Rank 1]fetch: address 0x7fdb4e000000, tranSize: 4097000, tranChunkNum: 3
-[Rank 1]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 1)
-[Rank 2]fetch: address 0x7f943c000000, tranSize: 4097000, tranChunkNum: 3
-[Rank 2]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 1)
 [Rank 3]reduce work elem done.
+[Rank 2]fetch: address 0x7efb1c000000, tranSize: 4097000, tranChunkNum: 3
+[Rank 2]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 1)
+[Rank 1]fetch: address 0x7f9344000000, tranSize: 4097000, tranChunkNum: 3
+[Rank 1]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 1)
+[Rank 0]fetch: address 0x7f4478000000, tranSize: 4097000, tranChunkNum: 3
+[Rank 0]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 0)
 [Rank 2]reduce work elem done.
 [Rank 1]reduce work elem done.
 [Rank 0]reduce work elem done.
-[Rank 0]allreduce time=  0.00(ms)
-[Rank 1]allreduce time=  0.00(ms)
-[Rank 3]allreduce time=  0.00(ms)
-[Rank 2]allreduce time=  0.00(ms)
-[Rank 0]hook active: [3, 2, 0, 1]
-[Rank 0]tensor float number 119545856, 478183424 bytes, chunk bytes 4194304
-[Rank 1]hook active: [3, 2, 0, 1]
-[Rank 1]tensor float number 119545856, 478183424 bytes, chunk bytes 4194304
 [Rank 2]hook active: [3, 2, 0, 1]
 [Rank 2]tensor float number 119545856, 478183424 bytes, chunk bytes 4194304
+[Rank 0]hook active: [3, 2, 0, 1]
+[Rank 0]tensor float number 119545856, 478183424 bytes, chunk bytes 4194304
 [Rank 3]hook active: [3, 2, 0, 1]
 [Rank 3]tensor float number 119545856, 478183424 bytes, chunk bytes 4194304
-[Rank 2]enqueue: 0x7f941a000000
-[Rank 2]fetch: address 0x7f941a000000, tranSize: 119545856, tranChunkNum: 114
-[Rank 1]enqueue: 0x7fdb2c000000
-[Rank 0]enqueue: 0x7f4174000000
-[Rank 0]fetch: address 0x7f4174000000, tranSize: 119545856, tranChunkNum: 114
-[Rank 0]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 0)
-[Rank 3]enqueue: 0x7efd86000000
-[Rank 2]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 1)
-[Rank 1]fetch: address 0x7fdb2c000000, tranSize: 119545856, tranChunkNum: 114
-[Rank 1]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 1)
-[Rank 3]fetch: address 0x7efd86000000, tranSize: 119545856, tranChunkNum: 114
+[Rank 1]hook active: [3, 2, 0, 1]
+[Rank 1]tensor float number 119545856, 478183424 bytes, chunk bytes 4194304
+[Rank 2]enqueue: 0x7efafa000000
+[Rank 0]enqueue: 0x7f4456000000
+[Rank 3]enqueue: 0x7ff0a8000000
+[Rank 1]enqueue: 0x7f9322000000
+[Rank 3]fetch: address 0x7ff0a8000000, tranSize: 119545856, tranChunkNum: 114
 [Rank 3]Relay GPU Control: (Recv: 0, Local: 1, Kernel: 0, Send: 1)
+[Rank 2]fetch: address 0x7efafa000000, tranSize: 119545856, tranChunkNum: 114
+[Rank 0]fetch: address 0x7f4456000000, tranSize: 119545856, tranChunkNum: 114
+[Rank 1]fetch: address 0x7f9322000000, tranSize: 119545856, tranChunkNum: 114
+[Rank 1]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 1)
+[Rank 0]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 0)
+[Rank 2]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 1)
 [Rank 3]reduce work elem done.
-[Rank 1]reduce work elem done.
-[Rank 1]allreduce time= 10.00(ms)
 [Rank 2]reduce work elem done.
-[Rank 2]allreduce time= 10.00(ms)
-[Rank 3]allreduce time= 10.00(ms)
+[Rank 1]reduce work elem done.
 [Rank 0]reduce work elem done.
-[Rank 0]allreduce time= 10.00(ms)
 [Rank 2]hook active: [3, 2, 0, 1]
 [Rank 2]tensor float number 14714688, 58858752 bytes, chunk bytes 4194304
+[Rank 1]hook active: [3, 2, 0, 1]
+[Rank 1]tensor float number 14714688, 58858752 bytes, chunk bytes 4194304
 [Rank 0]hook active: [3, 2, 0, 1]
 [Rank 0]tensor float number 14714688, 58858752 bytes, chunk bytes 4194304
 [Rank 3]hook active: [3, 2, 0, 1]
 [Rank 3]tensor float number 14714688, 58858752 bytes, chunk bytes 4194304
-[Rank 1]hook active: [3, 2, 0, 1]
-[Rank 1]tensor float number 14714688, 58858752 bytes, chunk bytes 4194304
-[Rank 0]enqueue: 0x7f4190808000
-[Rank 2]enqueue: 0x7f9436808000
-[Rank 3]enqueue: 0x7efda2808000
-[Rank 1]enqueue: 0x7fdb48808000
-[Rank 1]fetch: address 0x7fdb48808000, tranSize: 14714688, tranChunkNum: 14
+[Rank 1]enqueue: 0x7f933e808000
+[Rank 0]enqueue: 0x7f4472808000
+[Rank 2]enqueue: 0x7efb16808000
+[Rank 3]enqueue: 0x7ff0c4808000
+[Rank 2]fetch: address 0x7efb16808000, tranSize: 14714688, tranChunkNum: 14
+[Rank 2]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 1)
+[Rank 1]fetch: address 0x7f933e808000, tranSize: 14714688, tranChunkNum: 14
 [Rank 1]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 1)
-[Rank 3]fetch: address 0x7efda2808000, tranSize: 14714688, tranChunkNum: 14
+[Rank 0]fetch: address 0x7f4472808000, tranSize: 14714688, tranChunkNum: 14
+[Rank 0]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 0)
+[Rank 3]fetch: address 0x7ff0c4808000, tranSize: 14714688, tranChunkNum: 14
 [Rank 3]Relay GPU Control: (Recv: 0, Local: 1, Kernel: 0, Send: 1)
-[Rank 0]fetch: address 0x7f4190808000, tranSize: 14714688, tranChunkNum: 14
+[Rank 3]reduce work elem done.
+[Rank 2]reduce work elem done.
+[Rank 1]reduce work elem done.
+[Rank 0]reduce work elem done.
+======== step 1 	 loss 6.453
+[Rank 3]hook active: [2, 3, 0, 1]
+[Rank 3]tensor float number 4097000, 16388000 bytes, chunk bytes 4194304
+[Rank 2]hook active: [2, 3, 0, 1]
+[Rank 2]tensor float number 4097000, 16388000 bytes, chunk bytes 4194304
+[Rank 1]Controller active: [2, 3, 0, 1]
+[Rank 2]Controller active: [2, 3, 0, 1]
+[Rank 3]Controller active: [2, 3, 0, 1]
+[Rank 1]hook active: [2, 3, 0, 1]
+[Rank 1]tensor float number 4097000, 16388000 bytes, chunk bytes 4194304
+[Rank 0]Controller active: [2, 3, 0, 1]
+[Rank 0]hook active: [2, 3, 0, 1]
+[Rank 0]tensor float number 4097000, 16388000 bytes, chunk bytes 4194304
+[Rank 3]enqueue: 0x7ff0ca000000
+[Rank 1]enqueue: 0x7f9344000000
+[Rank 2]enqueue: 0x7efb1c000000
+[Rank 0]enqueue: 0x7f4478000000
+[Rank 2]fetch: address 0x7efb1c000000, tranSize: 4097000, tranChunkNum: 3
+[Rank 2]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 1)
+[Rank 3]fetch: address 0x7ff0ca000000, tranSize: 4097000, tranChunkNum: 3
+[Rank 3]Relay GPU Control: (Recv: 0, Local: 1, Kernel: 0, Send: 1)
+[Rank 1]fetch: address 0x7f9344000000, tranSize: 4097000, tranChunkNum: 3
+[Rank 1]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 1)
+[Rank 0]fetch: address 0x7f4478000000, tranSize: 4097000, tranChunkNum: 3
 [Rank 0]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 0)
 [Rank 3]reduce work elem done.
-[Rank 2]fetch: address 0x7f9436808000, tranSize: 14714688, tranChunkNum: 14
+[Rank 2]reduce work elem done.
+[Rank 1]reduce work elem done.
+[Rank 0]reduce work elem done.
+[Rank 2]hook active: [2, 3, 0, 1]
+[Rank 2]tensor float number 119545856, 478183424 bytes, chunk bytes 4194304
+[Rank 0]hook active: [2, 3, 0, 1]
+[Rank 0]tensor float number 119545856, 478183424 bytes, chunk bytes 4194304
+[Rank 1]hook active: [2, 3, 0, 1]
+[Rank 1]tensor float number 119545856, 478183424 bytes, chunk bytes 4194304
+[Rank 2]enqueue: 0x7efafa000000
+[Rank 3]hook active: [2, 3, 0, 1]
+[Rank 3]tensor float number 119545856, 478183424 bytes, chunk bytes 4194304
+[Rank 3]enqueue: 0x7ff0a8000000
+[Rank 0]enqueue: 0x7f4456000000
+[Rank 0]fetch: address 0x7f4456000000, tranSize: 119545856, tranChunkNum: 114
+[Rank 0]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 0)
+[Rank 1]enqueue: 0x7f9322000000
+[Rank 2]fetch: address 0x7efafa000000, tranSize: 119545856, tranChunkNum: 114
 [Rank 2]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 1)
+[Rank 3]fetch: address 0x7ff0a8000000, tranSize: 119545856, tranChunkNum: 114
+[Rank 1]fetch: address 0x7f9322000000, tranSize: 119545856, tranChunkNum: 114
+[Rank 1]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 1)
+[Rank 3]Relay GPU Control: (Recv: 0, Local: 1, Kernel: 0, Send: 1)
+[Rank 3]reduce work elem done.
 [Rank 1]reduce work elem done.
 [Rank 2]reduce work elem done.
 [Rank 0]reduce work elem done.
-[Rank 1]allreduce time=  1.00(ms)
-[Rank 2]allreduce time=  1.00(ms)
-[Rank 3]allreduce time=  1.00(ms)
-[Rank 0]allreduce time=  1.00(ms)
-======== step 1 	 loss 6.605
-[net-g16:509702] mca: base: close: component ucx closed
-[net-g16:509702] mca: base: close: unloading component ucx
-[net-g16:509699] mca: base: close: component ucx closed
-[net-g16:509699] mca: base: close: unloading component ucx
-[net-g16:509703] mca: base: close: component ucx closed
-[net-g16:509703] mca: base: close: unloading component ucx
-[net-g16:509700] mca: base: close: component ucx closed
-[net-g16:509700] mca: base: close: unloading component ucx
+[Rank 2]hook active: [2, 3, 0, 1]
+[Rank 2]tensor float number 14714688, 58858752 bytes, chunk bytes 4194304
+[Rank 0]hook active: [2, 3, 0, 1]
+[Rank 0]tensor float number 14714688, 58858752 bytes, chunk bytes 4194304
+[Rank 1]hook active: [2, 3, 0, 1]
+[Rank 1]tensor float number 14714688, 58858752 bytes, chunk bytes 4194304
+[Rank 3]hook active: [2, 3, 0, 1]
+[Rank 3]tensor float number 14714688, 58858752 bytes, chunk bytes 4194304
+[Rank 3]enqueue: 0x7ff0c4808000
+[Rank 0]enqueue: 0x7f4472808000
+[Rank 0]fetch: address 0x7f4472808000, tranSize: 14714688, tranChunkNum: 14
+[Rank 0]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 0)
+[Rank 1]enqueue: 0x7f933e808000
+[Rank 2]enqueue: 0x7efb16808000
+[Rank 2]fetch: address 0x7efb16808000, tranSize: 14714688, tranChunkNum: 14
+[Rank 2]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 1)
+[Rank 3]fetch: address 0x7ff0c4808000, tranSize: 14714688, tranChunkNum: 14
+[Rank 3]Relay GPU Control: (Recv: 0, Local: 1, Kernel: 0, Send: 1)
+[Rank 1]fetch: address 0x7f933e808000, tranSize: 14714688, tranChunkNum: 14
+[Rank 1]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 1)
+[Rank 3]reduce work elem done.
+[Rank 2]reduce work elem done.
+[Rank 1]reduce work elem done.
+[Rank 0]reduce work elem done.
+======== step 2 	 loss 5.346
+[Rank 2]hook active: [2, 3, 1, 0]
+[Rank 2]tensor float number 4097000, 16388000 bytes, chunk bytes 4194304
+[Rank 3]hook active: [2, 3, 1, 0]
+[Rank 3]tensor float number 4097000, 16388000 bytes, chunk bytes 4194304
+[Rank 1]Controller active: [2, 3, 1, 0]
+[Rank 3]Controller active: [2, 3, 1, 0]
+[Rank 2]Controller active: [2, 3, 1, 0]
+[Rank 0]hook active: [2, 3, 1, 0]
+[Rank 0]tensor float number 4097000, 16388000 bytes, chunk bytes 4194304
+[Rank 0]Controller active: [2, 3, 1, 0]
+[Rank 1]hook active: [2, 3, 1, 0]
+[Rank 1]tensor float number 4097000, 16388000 bytes, chunk bytes 4194304
+[Rank 2]enqueue: 0x7efb1c000000
+[Rank 0]enqueue: 0x7f4478000000
+[Rank 3]enqueue: 0x7ff0ca000000
+[Rank 1]enqueue: 0x7f9344000000
+[Rank 3]fetch: address 0x7ff0ca000000, tranSize: 4097000, tranChunkNum: 3
+[Rank 3]Relay GPU Control: (Recv: 0, Local: 1, Kernel: 0, Send: 1)
+[Rank 0]fetch: address 0x7f4478000000, tranSize: 4097000, tranChunkNum: 3
+[Rank 0]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 0)
+[Rank 1]fetch: address 0x7f9344000000, tranSize: 4097000, tranChunkNum: 3
+[Rank 1]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 1)
+[Rank 3]reduce work elem done.
+[Rank 2]fetch: address 0x7efb1c000000, tranSize: 4097000, tranChunkNum: 3
+[Rank 2]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 1)
+[Rank 2]reduce work elem done.
+[Rank 1]reduce work elem done.
+[Rank 0]reduce work elem done.
+[Rank 3]hook active: [2, 3, 1, 0]
+[Rank 3]tensor float number 119545856, 478183424 bytes, chunk bytes 4194304
+[Rank 2]hook active: [2, 3, 1, 0]
+[Rank 2]tensor float number 119545856, 478183424 bytes, chunk bytes 4194304
+[Rank 0]hook active: [2, 3, 1, 0]
+[Rank 0]tensor float number 119545856, 478183424 bytes, chunk bytes 4194304
+[Rank 1]hook active: [2, 3, 1, 0]
+[Rank 1]tensor float number 119545856, 478183424 bytes, chunk bytes 4194304
+[Rank 0]enqueue: 0x7f4456000000
+[Rank 2]enqueue: 0x7efafa000000
+[Rank 3]enqueue: 0x7ff0a8000000
+[Rank 1]enqueue: 0x7f9322000000
+[Rank 3]fetch: address 0x7ff0a8000000, tranSize: 119545856, tranChunkNum: 114
+[Rank 3]Relay GPU Control: (Recv: 0, Local: 1, Kernel: 0, Send: 1)
+[Rank 0]fetch: address 0x7f4456000000, tranSize: 119545856, tranChunkNum: 114
+[Rank 0]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 0)
+[Rank 2]fetch: address 0x7efafa000000, tranSize: 119545856, tranChunkNum: 114
+[Rank 2]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 1)
+[Rank 1]fetch: address 0x7f9322000000, tranSize: 119545856, tranChunkNum: 114
+[Rank 1]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 1)
+[Rank 3]reduce work elem done.
+[Rank 2]reduce work elem done.
+[Rank 1]reduce work elem done.
+[Rank 0]reduce work elem done.
+[Rank 3]hook active: [2, 3, 1, 0]
+[Rank 3]tensor float number 14714688, 58858752 bytes, chunk bytes 4194304
+[Rank 2]hook active: [2, 3, 1, 0]
+[Rank 2]tensor float number 14714688, 58858752 bytes, chunk bytes 4194304
+[Rank 2]enqueue: 0x7efb16808000
+[Rank 1]hook active: [2, 3, 1, 0]
+[Rank 1]tensor float number 14714688, 58858752 bytes, chunk bytes 4194304
+[Rank 1]enqueue: 0x7f933e808000
+[Rank 0]hook active: [2, 3, 1, 0]
+[Rank 0]tensor float number 14714688, 58858752 bytes, chunk bytes 4194304
+[Rank 0]enqueue: 0x7f4472808000
+[Rank 3]enqueue: 0x7ff0c4808000
+[Rank 1]fetch: address 0x7f933e808000, tranSize: 14714688, tranChunkNum: 14
+[Rank 1]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 1)
+[Rank 0]fetch: address 0x7f4472808000, tranSize: 14714688, tranChunkNum: 14
+[Rank 0]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 0)
+[Rank 2]fetch: address 0x7efb16808000, tranSize: 14714688, tranChunkNum: 14
+[Rank 2]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 1)
+[Rank 3]fetch: address 0x7ff0c4808000, tranSize: 14714688, tranChunkNum: 14
+[Rank 3]Relay GPU Control: (Recv: 0, Local: 1, Kernel: 0, Send: 1)
+[Rank 3]reduce work elem done.
+[Rank 2]reduce work elem done.
+[Rank 1]reduce work elem done.
+[Rank 0]reduce work elem done.
+======== step 3 	 loss 1.959
+[Rank 2]hook active: [2, 3, 1, 0]
+[Rank 2]tensor float number 4097000, 16388000 bytes, chunk bytes 4194304
+[Rank 2]Controller active: [2, 3, 1, 0]
+[Rank 3]hook active: [2, 3, 1, 0]
+[Rank 3]tensor float number 4097000, 16388000 bytes, chunk bytes 4194304
+[Rank 1]hook active: [2, 3, 1, 0]
+[Rank 1]tensor float number 4097000, 16388000 bytes, chunk bytes 4194304
+[Rank 3]Controller active: [2, 3, 1, 0]
+[Rank 1]Controller active: [2, 3, 1, 0]
+[Rank 0]Controller active: [2, 3, 1, 0]
+[Rank 0]hook active: [2, 3, 1, 0]
+[Rank 0]tensor float number 4097000, 16388000 bytes, chunk bytes 4194304
+[Rank 2]enqueue: 0x7efb1c000000
+[Rank 1]enqueue: 0x7f9344000000
+[Rank 3]enqueue: 0x7ff0ca000000
+[Rank 0]enqueue: 0x7f4478000000
+[Rank 1]fetch: address 0x7f9344000000, tranSize: 4097000, tranChunkNum: 3
+[Rank 1]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 1)
+[Rank 0]fetch: address 0x7f4478000000, tranSize: 4097000, tranChunkNum: 3
+[Rank 0]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 0)
+[Rank 3]fetch: address 0x7ff0ca000000, tranSize: 4097000, tranChunkNum: 3
+[Rank 3]Relay GPU Control: (Recv: 0, Local: 1, Kernel: 0, Send: 1)
+[Rank 2]fetch: address 0x7efb1c000000, tranSize: 4097000, tranChunkNum: 3
+[Rank 2]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 1)
+[Rank 3]reduce work elem done.
+[Rank 2]reduce work elem done.
+[Rank 1]reduce work elem done.
+[Rank 0]reduce work elem done.
+[Rank 3]hook active: [2, 3, 1, 0]
+[Rank 3]tensor float number 119545856, 478183424 bytes, chunk bytes 4194304
+[Rank 2]hook active: [2, 3, 1, 0]
+[Rank 2]tensor float number 119545856, 478183424 bytes, chunk bytes 4194304
+[Rank 1]hook active: [2, 3, 1, 0]
+[Rank 1]tensor float number 119545856, 478183424 bytes, chunk bytes 4194304
+[Rank 0]hook active: [2, 3, 1, 0]
+[Rank 0]tensor float number 119545856, 478183424 bytes, chunk bytes 4194304
+[Rank 3]enqueue: 0x7ff0a8000000
+[Rank 0]enqueue: 0x7f4456000000
+[Rank 2]enqueue: 0x7efafa000000
+[Rank 1]enqueue: 0x7f9322000000
+[Rank 0]fetch: address 0x7f4456000000, tranSize: 119545856, tranChunkNum: 114
+[Rank 0]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 0)
+[Rank 2]fetch: address 0x7efafa000000, tranSize: 119545856, tranChunkNum: 114
+[Rank 2]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 1)
+[Rank 3]fetch: address 0x7ff0a8000000, tranSize: 119545856, tranChunkNum: 114
+[Rank 3]Relay GPU Control: (Recv: 0, Local: 1, Kernel: 0, Send: 1)
+[Rank 1]fetch: address 0x7f9322000000, tranSize: 119545856, tranChunkNum: 114
+[Rank 1]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 1)
+[Rank 3]reduce work elem done.
+[Rank 2]reduce work elem done.
+[Rank 1]reduce work elem done.
+[Rank 0]reduce work elem done.
+[Rank 2]hook active: [2, 3, 1, 0]
+[Rank 2]tensor float number 14714688, 58858752 bytes, chunk bytes 4194304
+[Rank 2]enqueue: 0x7efb16808000
+[Rank 1]hook active: [2, 3, 1, 0]
+[Rank 1]tensor float number 14714688, 58858752 bytes, chunk bytes 4194304
+[Rank 1]enqueue: 0x7f933e808000
+[Rank 3]hook active: [2, 3, 1, 0]
+[Rank 3]tensor float number 14714688, 58858752 bytes, chunk bytes 4194304
+[Rank 3]enqueue: 0x7ff0c4808000
+[Rank 0]hook active: [2, 3, 1, 0]
+[Rank 0]tensor float number 14714688, 58858752 bytes, chunk bytes 4194304
+[Rank 0]enqueue: 0x7f4472808000
+[Rank 3]fetch: address 0x7ff0c4808000, tranSize: 14714688, tranChunkNum: 14
+[Rank 3]Relay GPU Control: (Recv: 0, Local: 1, Kernel: 0, Send: 1)
+[Rank 2]fetch: address 0x7efb16808000, tranSize: 14714688, tranChunkNum: 14
+[Rank 2]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 1)
+[Rank 1]fetch: address 0x7f933e808000, tranSize: 14714688, tranChunkNum: 14
+[Rank 1]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 1)
+[Rank 0]fetch: address 0x7f4472808000, tranSize: 14714688, tranChunkNum: 14
+[Rank 0]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 0)
+[Rank 3]reduce work elem done.
+[Rank 1]reduce work elem done.
+[Rank 0]reduce work elem done.
+[Rank 2]reduce work elem done.
+======== step 4 	 loss 0.000
+[Rank 3]hook active: [3, 2, 1, 0]
+[Rank 3]tensor float number 4097000, 16388000 bytes, chunk bytes 4194304
+[Rank 2]hook active: [3, 2, 1, 0]
+[Rank 2]tensor float number 4097000, 16388000 bytes, chunk bytes 4194304
+[Rank 2]Controller active: [3, 2, 1, 0]
+[Rank 3]Controller active: [3, 2, 1, 0]
+[Rank 1]hook active: [3, 2, 1, 0]
+[Rank 1]tensor float number 4097000, 16388000 bytes, chunk bytes 4194304
+[Rank 1]Controller active: [3, 2, 1, 0]
+[Rank 0]hook active: [3, 2, 1, 0]
+[Rank 0]tensor float number 4097000, 16388000 bytes, chunk bytes 4194304
+[Rank 1]enqueue: 0x7f9344000000
+[Rank 3]enqueue: 0x7ff0ca000000
+[Rank 2]enqueue: 0x7efb1c000000
+[Rank 0]enqueue: 0x7f4478000000
+[Rank 2]fetch: address 0x7efb1c000000, tranSize: 4097000, tranChunkNum: 3
+[Rank 2]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 1)
+[Rank 1]fetch: address 0x7f9344000000, tranSize: 4097000, tranChunkNum: 3
+[Rank 1]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 1)
+[Rank 3]fetch: address 0x7ff0ca000000, tranSize: 4097000, tranChunkNum: 3
+[Rank 3]Relay GPU Control: (Recv: 0, Local: 1, Kernel: 0, Send: 1)
+[Rank 0]fetch: address 0x7f4478000000, tranSize: 4097000, tranChunkNum: 3
+[Rank 0]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 0)
+[Rank 3]reduce work elem done.
+[Rank 2]reduce work elem done.
+[Rank 0]Controller active: [3, 2, 1, 0]
+[Rank 1]reduce work elem done.
+[Rank 0]reduce work elem done.
+[Rank 2]hook active: [3, 2, 1, 0]
+[Rank 2]tensor float number 119545856, 478183424 bytes, chunk bytes 4194304
+[Rank 3]hook active: [3, 2, 1, 0]
+[Rank 3]tensor float number 119545856, 478183424 bytes, chunk bytes 4194304
+[Rank 0]hook active: [3, 2, 1, 0]
+[Rank 0]tensor float number 119545856, 478183424 bytes, chunk bytes 4194304
+[Rank 1]hook active: [3, 2, 1, 0]
+[Rank 1]tensor float number 119545856, 478183424 bytes, chunk bytes 4194304
+[Rank 3]enqueue: 0x7ff0a8000000
+[Rank 2]enqueue: 0x7efafa000000
+[Rank 0]enqueue: 0x7f4456000000
+[Rank 1]enqueue: 0x7f9322000000
+[Rank 0]fetch: address 0x7f4456000000, tranSize: 119545856, tranChunkNum: 114
+[Rank 0]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 0)
+[Rank 2]fetch: address 0x7efafa000000, tranSize: 119545856, tranChunkNum: 114
+[Rank 2]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 1)
+[Rank 1]fetch: address 0x7f9322000000, tranSize: 119545856, tranChunkNum: 114
+[Rank 1]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 1)
+[Rank 3]fetch: address 0x7ff0a8000000, tranSize: 119545856, tranChunkNum: 114
+[Rank 3]Relay GPU Control: (Recv: 0, Local: 1, Kernel: 0, Send: 1)
+[Rank 3]reduce work elem done.
+[Rank 2]reduce work elem done.
+[Rank 1]reduce work elem done.
+[Rank 0]reduce work elem done.
+[Rank 3]hook active: [3, 2, 1, 0]
+[Rank 3]tensor float number 14714688, 58858752 bytes, chunk bytes 4194304
+[Rank 2]hook active: [3, 2, 1, 0]
+[Rank 2]tensor float number 14714688, 58858752 bytes, chunk bytes 4194304
+[Rank 2]enqueue: 0x7efb16808000
+[Rank 1]hook active: [3, 2, 1, 0]
+[Rank 1]tensor float number 14714688, 58858752 bytes, chunk bytes 4194304
+[Rank 0]hook active: [3, 2, 1, 0]
+[Rank 0]tensor float number 14714688, 58858752 bytes, chunk bytes 4194304
+[Rank 0]enqueue: 0x7f4472808000
+[Rank 1]enqueue: 0x7f933e808000
+[Rank 1]fetch: address 0x7f933e808000, tranSize: 14714688, tranChunkNum: 14
+[Rank 3]enqueue: 0x7ff0c4808000
+[Rank 3]fetch: address 0x7ff0c4808000, tranSize: 14714688, tranChunkNum: 14
+[Rank 2]fetch: address 0x7efb16808000, tranSize: 14714688, tranChunkNum: 14
+[Rank 2]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 1)
+[Rank 0]fetch: address 0x7f4472808000, tranSize: 14714688, tranChunkNum: 14
+[Rank 0]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 0)
+[Rank 1]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 1)
+[Rank 3]Relay GPU Control: (Recv: 0, Local: 1, Kernel: 0, Send: 1)
+[Rank 3]reduce work elem done.
+[Rank 2]reduce work elem done.
+[Rank 1]reduce work elem done.
+[Rank 0]reduce work elem done.
+======== step 5 	 loss 0.000
+[Rank 2]hook active: [2, 3, 1, 0]
+[Rank 2]tensor float number 4097000, 16388000 bytes, chunk bytes 4194304
+[Rank 3]hook active: [2, 3, 1, 0]
+[Rank 3]tensor float number 4097000, 16388000 bytes, chunk bytes 4194304
+[Rank 1]Controller active: [2, 3, 1, 0]
+[Rank 3]Controller active: [2, 3, 1, 0]
+[Rank 1]hook active: [2, 3, 1, 0]
+[Rank 1]tensor float number 4097000, 16388000 bytes, chunk bytes 4194304
+[Rank 2]Controller active: [2, 3, 1, 0]
+[Rank 0]Controller active: [2, 3, 1, 0]
+[Rank 0]hook active: [2, 3, 1, 0]
+[Rank 0]tensor float number 4097000, 16388000 bytes, chunk bytes 4194304
+[Rank 1]enqueue: 0x7f9344000000
+[Rank 3]enqueue: 0x7ff0ca000000
+[Rank 2]enqueue: 0x7efb1c000000
+[Rank 0]enqueue: 0x7f4478000000
+[Rank 1]fetch: address 0x7f9344000000, tranSize: 4097000, tranChunkNum: 3
+[Rank 1]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 1)
+[Rank 3]fetch: address 0x7ff0ca000000, tranSize: 4097000, tranChunkNum: 3
+[Rank 3]Relay GPU Control: (Recv: 0, Local: 1, Kernel: 0, Send: 1)
+[Rank 0]fetch: address 0x7f4478000000, tranSize: 4097000, tranChunkNum: 3
+[Rank 0]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 0)
+[Rank 2]fetch: address 0x7efb1c000000, tranSize: 4097000, tranChunkNum: 3
+[Rank 2]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 1)
+[Rank 3]reduce work elem done.
+[Rank 2]reduce work elem done.
+[Rank 0]reduce work elem done.
+[Rank 1]reduce work elem done.
+[Rank 3]hook active: [2, 3, 1, 0]
+[Rank 3]tensor float number 119545856, 478183424 bytes, chunk bytes 4194304
+[Rank 1]hook active: [2, 3, 1, 0]
+[Rank 1]tensor float number 119545856, 478183424 bytes, chunk bytes 4194304
+[Rank 0]hook active: [2, 3, 1, 0]
+[Rank 0]tensor float number 119545856, 478183424 bytes, chunk bytes 4194304
+[Rank 2]hook active: [2, 3, 1, 0]
+[Rank 2]tensor float number 119545856, 478183424 bytes, chunk bytes 4194304
+[Rank 0]enqueue: 0x7f4456000000
+[Rank 3]enqueue: 0x7ff0a8000000
+[Rank 1]enqueue: 0x7f9322000000
+[Rank 2]enqueue: 0x7efafa000000
+[Rank 1]fetch: address 0x7f9322000000, tranSize: 119545856, tranChunkNum: 114
+[Rank 1]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 1)
+[Rank 0]fetch: address 0x7f4456000000, tranSize: 119545856, tranChunkNum: 114
+[Rank 0]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 0)
+[Rank 3]fetch: address 0x7ff0a8000000, tranSize: 119545856, tranChunkNum: 114
+[Rank 3]Relay GPU Control: (Recv: 0, Local: 1, Kernel: 0, Send: 1)
+[Rank 2]fetch: address 0x7efafa000000, tranSize: 119545856, tranChunkNum: 114
+[Rank 2]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 1)
+[Rank 3]reduce work elem done.
+[Rank 2]reduce work elem done.
+[Rank 1]reduce work elem done.
+[Rank 0]reduce work elem done.
+[Rank 3]hook active: [2, 3, 1, 0]
+[Rank 3]tensor float number 14714688, 58858752 bytes, chunk bytes 4194304
+[Rank 1]hook active: [2, 3, 1, 0]
+[Rank 1]tensor float number 14714688, 58858752 bytes, chunk bytes 4194304
+[Rank 0]hook active: [2, 3, 1, 0]
+[Rank 0]tensor float number 14714688, 58858752 bytes, chunk bytes 4194304
+[Rank 2]hook active: [2, 3, 1, 0]
+[Rank 2]tensor float number 14714688, 58858752 bytes, chunk bytes 4194304
+[Rank 3]enqueue: 0x7ff0c4808000
+[Rank 2]enqueue: 0x7efb16808000
+[Rank 1]enqueue: 0x7f933e808000
+[Rank 0]enqueue: 0x7f4472808000
+[Rank 2]fetch: address 0x7efb16808000, tranSize: 14714688, tranChunkNum: 14
+[Rank 2]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 1)
+[Rank 1]fetch: address 0x7f933e808000, tranSize: 14714688, tranChunkNum: 14
+[Rank 1]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 1)
+[Rank 3]fetch: address 0x7ff0c4808000, tranSize: 14714688, tranChunkNum: 14
+[Rank 3]Relay GPU Control: (Recv: 0, Local: 1, Kernel: 0, Send: 1)
+[Rank 0]fetch: address 0x7f4472808000, tranSize: 14714688, tranChunkNum: 14
+[Rank 0]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 0)
+[Rank 3]reduce work elem done.
+[Rank 2]reduce work elem done.
+[Rank 1]reduce work elem done.
+[Rank 0]reduce work elem done.
+======== step 6 	 loss 0.000
+[Rank 3]hook active: [3, 1, 0, 2]
+[Rank 3]tensor float number 4097000, 16388000 bytes, chunk bytes 4194304
+[Rank 2]hook active: [3, 1, 0, 2]
+[Rank 2]tensor float number 4097000, 16388000 bytes, chunk bytes 4194304
+[Rank 0]hook active: [3, 1, 0, 2]
+[Rank 2]Controller active: [3, 1, 0, 2]
+[Rank 1]hook active: [3, 1, 0, 2]
+[Rank 1]tensor float number 4097000, 16388000 bytes, chunk bytes 4194304
+[Rank 0]tensor float number 4097000, 16388000 bytes, chunk bytes 4194304
+[Rank 2]enqueue: 0x7efb1c000000
+[Rank 1]enqueue: 0x7f9344000000
+[Rank 3]enqueue: 0x7ff0ca000000
+[Rank 0]enqueue: 0x7f4478000000
+[Rank 1]Controller active: [3, 1, 0, 2]
+[Rank 0]fetch: address 0x7f4478000000, tranSize: 4097000, tranChunkNum: 3
+[Rank 0]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 0)
+[Rank 1]fetch: address 0x7f9344000000, tranSize: 4097000, tranChunkNum: 3
+[Rank 1]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 1)
+[Rank 3]fetch: address 0x7ff0ca000000, tranSize: 4097000, tranChunkNum: 3
+[Rank 3]Relay GPU Control: (Recv: 0, Local: 1, Kernel: 0, Send: 1)
+[Rank 3]reduce work elem done.
+[Rank 2]fetch: address 0x7efb1c000000, tranSize: 4097000, tranChunkNum: 3
+[Rank 2]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 1)
+[Rank 2]reduce work elem done.
+[Rank 1]reduce work elem done.
+[Rank 0]reduce work elem done.
+[Rank 3]Controller active: [3, 1, 0, 2]
+[Rank 1]hook active: [3, 1, 0, 2]
+[Rank 1]tensor float number 119545856, 478183424 bytes, chunk bytes 4194304
+[Rank 0]Controller active: [3, 1, 0, 2]
+[Rank 2]hook active: [3, 1, 0, 2]
+[Rank 3]hook active: [3, 1, 0, 2]
+[Rank 3]tensor float number 119545856, 478183424 bytes, chunk bytes 4194304
+[Rank 2]tensor float number 119545856, 478183424 bytes, chunk bytes 4194304
+[Rank 0]hook active: [3, 1, 0, 2]
+[Rank 0]tensor float number 119545856, 478183424 bytes, chunk bytes 4194304
+[Rank 2]enqueue: 0x7efafa000000
+[Rank 1]enqueue: 0x7f9322000000
+[Rank 3]enqueue: 0x7ff0a8000000
+[Rank 0]enqueue: 0x7f4456000000
+[Rank 1]fetch: address 0x7f9322000000, tranSize: 119545856, tranChunkNum: 114
+[Rank 1]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 1)
+[Rank 0]fetch: address 0x7f4456000000, tranSize: 119545856, tranChunkNum: 114
+[Rank 0]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 0)
+[Rank 3]fetch: address 0x7ff0a8000000, tranSize: 119545856, tranChunkNum: 114
+[Rank 3]Relay GPU Control: (Recv: 0, Local: 1, Kernel: 0, Send: 1)
+[Rank 2]fetch: address 0x7efafa000000, tranSize: 119545856, tranChunkNum: 114
+[Rank 2]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 1)
+[Rank 3]reduce work elem done.
+[Rank 2]reduce work elem done.
+[Rank 1]reduce work elem done.
+[Rank 0]reduce work elem done.
+[Rank 0]hook active: [3, 1, 0, 2]
+[Rank 0]tensor float number 14714688, 58858752 bytes, chunk bytes 4194304
+[Rank 2]hook active: [3, 1, 0, 2]
+[Rank 2]tensor float number 14714688, 58858752 bytes, chunk bytes 4194304
+[Rank 1]hook active: [3, 1, 0, 2]
+[Rank 1]tensor float number 14714688, 58858752 bytes, chunk bytes 4194304
+[Rank 3]hook active: [3, 1, 0, 2]
+[Rank 3]tensor float number 14714688, 58858752 bytes, chunk bytes 4194304
+[Rank 2]enqueue: 0x7efb16808000
+[Rank 1]enqueue: 0x7f933e808000
+[Rank 0]enqueue: 0x7f4472808000
+[Rank 3]enqueue: 0x7ff0c4808000
+[Rank 0]fetch: address 0x7f4472808000, tranSize: 14714688, tranChunkNum: 14
+[Rank 0]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 0)
+[Rank 2]fetch: address 0x7efb16808000, tranSize: 14714688, tranChunkNum: 14
+[Rank 2]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 1)
+[Rank 1]fetch: address 0x7f933e808000, tranSize: 14714688, tranChunkNum: 14
+[Rank 1]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 1)
+[Rank 3]fetch: address 0x7ff0c4808000, tranSize: 14714688, tranChunkNum: 14
+[Rank 3]Relay GPU Control: (Recv: 0, Local: 1, Kernel: 0, Send: 1)
+[Rank 3]reduce work elem done.
+[Rank 2]reduce work elem done.
+[Rank 1]reduce work elem done.
+[Rank 0]reduce work elem done.
+======== step 7 	 loss 0.000
+[Rank 3]hook active: [3, 1, 2, 0]
+[Rank 3]tensor float number 4097000, 16388000 bytes, chunk bytes 4194304
+[Rank 1]hook active: [3, 1, 2, 0]
+[Rank 1]tensor float number 4097000, 16388000 bytes, chunk bytes 4194304
+[Rank 2]hook active: [3, 1, 2, 0]
+[Rank 0]hook active: [3, 1, 2, 0]
+[Rank 2]tensor float number 4097000, 16388000 bytes, chunk bytes 4194304
+[Rank 2]Controller active: [3, 1, 2, 0]
+[Rank 1]Controller active: [3, 1, 2, 0]
+[Rank 0]Controller active: [3, 1, 2, 0]
+[Rank 0]tensor float number 4097000, 16388000 bytes, chunk bytes 4194304
+[Rank 2]enqueue: 0x7efb1c000000
+[Rank 0]enqueue: 0x7f4478000000
+[Rank 1]enqueue: 0x7f9344000000
+[Rank 3]enqueue: 0x7ff0ca000000
+[Rank 3]Controller active: [3, 1, 2, 0]
+[Rank 2]fetch: address 0x7efb1c000000, tranSize: 4097000, tranChunkNum: 3
+[Rank 2]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 1)
+[Rank 1]fetch: address 0x7f9344000000, tranSize: 4097000, tranChunkNum: 3
+[Rank 0]fetch: address 0x7f4478000000, tranSize: 4097000, tranChunkNum: 3
+[Rank 0]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 0)
+[Rank 3]fetch: address 0x7ff0ca000000, tranSize: 4097000, tranChunkNum: 3
+[Rank 3]Relay GPU Control: (Recv: 0, Local: 1, Kernel: 0, Send: 1)
+[Rank 1]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 1)
+[Rank 3]reduce work elem done.
+[Rank 2]reduce work elem done.
+[Rank 1]reduce work elem done.
+[Rank 0]reduce work elem done.
+[Rank 1]hook active: [3, 1, 2, 0]
+[Rank 1]tensor float number 119545856, 478183424 bytes, chunk bytes 4194304
+[Rank 3]hook active: [3, 1, 2, 0]
+[Rank 3]tensor float number 119545856, 478183424 bytes, chunk bytes 4194304
+[Rank 2]hook active: [3, 1, 2, 0]
+[Rank 2]tensor float number 119545856, 478183424 bytes, chunk bytes 4194304
+[Rank 0]hook active: [3, 1, 2, 0]
+[Rank 0]tensor float number 119545856, 478183424 bytes, chunk bytes 4194304
+[Rank 2]enqueue: 0x7efafa000000
+[Rank 0]enqueue: 0x7f4456000000
+[Rank 1]enqueue: 0x7f9322000000
+[Rank 3]enqueue: 0x7ff0a8000000
+[Rank 2]fetch: address 0x7efafa000000, tranSize: 119545856, tranChunkNum: 114
+[Rank 2]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 1)
+[Rank 0]fetch: address 0x7f4456000000, tranSize: 119545856, tranChunkNum: 114
+[Rank 0]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 0)
+[Rank 1]fetch: address 0x7f9322000000, tranSize: 119545856, tranChunkNum: 114
+[Rank 1]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 1)
+[Rank 3]fetch: address 0x7ff0a8000000, tranSize: 119545856, tranChunkNum: 114
+[Rank 3]Relay GPU Control: (Recv: 0, Local: 1, Kernel: 0, Send: 1)
+[Rank 3]reduce work elem done.
+[Rank 1]reduce work elem done.
+[Rank 2]reduce work elem done.
+[Rank 0]reduce work elem done.
+[Rank 1]hook active: [3, 1, 2, 0]
+[Rank 1]tensor float number 14714688, 58858752 bytes, chunk bytes 4194304
+[Rank 0]hook active: [3, 1, 2, 0]
+[Rank 0]tensor float number 14714688, 58858752 bytes, chunk bytes 4194304
+[Rank 2]hook active: [3, 1, 2, 0]
+[Rank 2]tensor float number 14714688, 58858752 bytes, chunk bytes 4194304
+[Rank 3]hook active: [3, 1, 2, 0]
+[Rank 3]tensor float number 14714688, 58858752 bytes, chunk bytes 4194304
+[Rank 1]enqueue: 0x7f933e808000
+[Rank 0]enqueue: 0x7f4472808000
+[Rank 3]enqueue: 0x7ff0c4808000
+[Rank 2]enqueue: 0x7efb16808000
+[Rank 3]fetch: address 0x7ff0c4808000, tranSize: 14714688, tranChunkNum: 14
+[Rank 3]Relay GPU Control: (Recv: 0, Local: 1, Kernel: 0, Send: 1)
+[Rank 0]fetch: address 0x7f4472808000, tranSize: 14714688, tranChunkNum: 14
+[Rank 0]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 0)
+[Rank 1]fetch: address 0x7f933e808000, tranSize: 14714688, tranChunkNum: 14
+[Rank 1]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 1)
+[Rank 2]fetch: address 0x7efb16808000, tranSize: 14714688, tranChunkNum: 14
+[Rank 2]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 1)
+[Rank 3]reduce work elem done.
+[Rank 2]reduce work elem done.
+[Rank 1]reduce work elem done.
+[Rank 0]reduce work elem done.
+======== step 8 	 loss 0.000
+[Rank 3]hook active: [1, 3, 2, 0]
+[Rank 3]tensor float number 4097000, 16388000 bytes, chunk bytes 4194304
+[Rank 1]hook active: [1, 3, 2, 0]
+[Rank 1]tensor float number 4097000, 16388000 bytes, chunk bytes 4194304
+[Rank 2]hook active: [1, 3, 2, 0]
+[Rank 2]tensor float number 4097000, 16388000 bytes, chunk bytes 4194304
+[Rank 3]Controller active: [1, 3, 2, 0]
+[Rank 2]Controller active: [1, 3, 2, 0]
+[Rank 1]Controller active: [1, 3, 2, 0]
+[Rank 0]Controller active: [1, 3, 2, 0]
+[Rank 0]hook active: [1, 3, 2, 0]
+[Rank 0]tensor float number 4097000, 16388000 bytes, chunk bytes 4194304
+[Rank 2]enqueue: 0x7efb1c000000
+[Rank 1]enqueue: 0x7f9344000000
+[Rank 3]enqueue: 0x7ff0ca000000
+[Rank 0]enqueue: 0x7f4478000000
+[Rank 3]fetch: address 0x7ff0ca000000, tranSize: 4097000, tranChunkNum: 3
+[Rank 3]Relay GPU Control: (Recv: 0, Local: 1, Kernel: 0, Send: 1)
+[Rank 3]reduce work elem done.
+[Rank 2]fetch: address 0x7efb1c000000, tranSize: 4097000, tranChunkNum: 3
+[Rank 2]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 1)
+[Rank 1]fetch: address 0x7f9344000000, tranSize: 4097000, tranChunkNum: 3
+[Rank 1]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 1)
+[Rank 0]fetch: address 0x7f4478000000, tranSize: 4097000, tranChunkNum: 3
+[Rank 0]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 0)
+[Rank 2]reduce work elem done.
+[Rank 1]reduce work elem done.
+[Rank 0]reduce work elem done.
+[Rank 2]hook active: [1, 3, 2, 0]
+[Rank 2]tensor float number 119545856, 478183424 bytes, chunk bytes 4194304
+[Rank 3]hook active: [1, 3, 2, 0]
+[Rank 3]tensor float number 119545856, 478183424 bytes, chunk bytes 4194304
+[Rank 1]hook active: [1, 3, 2, 0]
+[Rank 1]tensor float number 119545856, 478183424 bytes, chunk bytes 4194304
+[Rank 0]hook active: [1, 3, 2, 0]
+[Rank 0]tensor float number 119545856, 478183424 bytes, chunk bytes 4194304
+[Rank 1]enqueue: 0x7f9322000000
+[Rank 2]enqueue: 0x7efafa000000
+[Rank 3]enqueue: 0x7ff0a8000000
+[Rank 0]enqueue: 0x7f4456000000
+[Rank 1]fetch: address 0x7f9322000000, tranSize: 119545856, tranChunkNum: 114
+[Rank 1]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 1)
+[Rank 2]fetch: address 0x7efafa000000, tranSize: 119545856, tranChunkNum: 114
+[Rank 2]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 1)
+[Rank 0]fetch: address 0x7f4456000000, tranSize: 119545856, tranChunkNum: 114
+[Rank 0]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 0)
+[Rank 3]fetch: address 0x7ff0a8000000, tranSize: 119545856, tranChunkNum: 114
+[Rank 3]Relay GPU Control: (Recv: 0, Local: 1, Kernel: 0, Send: 1)
+[Rank 3]reduce work elem done.
+[Rank 2]reduce work elem done.
+[Rank 1]reduce work elem done.
+[Rank 0]reduce work elem done.
+[Rank 1]hook active: [1, 3, 2, 0]
+[Rank 1]tensor float number 14714688, 58858752 bytes, chunk bytes 4194304
+[Rank 2]hook active: [1, 3, 2, 0]
+[Rank 2]tensor float number 14714688, 58858752 bytes, chunk bytes 4194304
+[Rank 0]hook active: [1, 3, 2, 0]
+[Rank 0]tensor float number 14714688, 58858752 bytes, chunk bytes 4194304
+[Rank 3]hook active: [1, 3, 2, 0]
+[Rank 3]tensor float number 14714688, 58858752 bytes, chunk bytes 4194304
+[Rank 3]enqueue: 0x7ff0c4808000
+[Rank 1]enqueue: 0x7f933e808000
+[Rank 0]enqueue: 0x7f4472808000
+[Rank 2]enqueue: 0x7efb16808000
+[Rank 0]fetch: address 0x7f4472808000, tranSize: 14714688, tranChunkNum: 14
+[Rank 0]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 0)
+[Rank 1]fetch: address 0x7f933e808000, tranSize: 14714688, tranChunkNum: 14
+[Rank 1]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 1)
+[Rank 3]fetch: address 0x7ff0c4808000, tranSize: 14714688, tranChunkNum: 14
+[Rank 3]Relay GPU Control: (Recv: 0, Local: 1, Kernel: 0, Send: 1)
+[Rank 2]fetch: address 0x7efb16808000, tranSize: 14714688, tranChunkNum: 14
+[Rank 2]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 1)
+[Rank 3]reduce work elem done.
+[Rank 2]reduce work elem done.
+[Rank 1]reduce work elem done.
+[Rank 0]reduce work elem done.
+======== step 9 	 loss 0.000
+[net-g16:1535257] mca: base: close: component ucx closed
+[net-g16:1535257] mca: base: close: unloading component ucx
+[net-g16:1535259] mca: base: close: component ucx closed
+[net-g16:1535259] mca: base: close: unloading component ucx
+[net-g16:1535256] mca: base: close: component ucx closed
+[net-g16:1535256] mca: base: close: unloading component ucx
+[net-g16:1535258] mca: base: close: component ucx closed
+[net-g16:1535258] mca: base: close: unloading component ucx
+[Rank 3] work threads quit.
 [Rank 1] work threads quit.
 [Rank 2] work threads quit.
 [Rank 0] work threads quit.
-[Rank 3] work threads quit.

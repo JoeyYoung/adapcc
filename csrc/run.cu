@@ -95,6 +95,7 @@ extern "C"{
             reduceContext::terminate();
         else if(type == BOARDCAST)
             boardcastContext::terminate();
+        else if(type == DETECT || type == PROFILE);
         else
             printf("non ready primitive");
     }

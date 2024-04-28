@@ -1,68 +1,68 @@
-ip_table.txt                                                                 100%   44   139.1KB/s   00:00
+ip_table.txt                                                                 100%   44    59.0KB/s   00:00
 ip table dispatched.
 MPI Init...
 MPI Init...
 MPI Init...
-[net-g16:2511881] mca: base: components_register: registering framework pml components
-[net-g16:2511881] mca: base: components_register: found loaded component ucx
-[net-g16:2511883] mca: base: components_register: registering framework pml components
-[net-g16:2511883] mca: base: components_register: found loaded component ucx
-[net-g16:2511883] mca: base: components_register: component ucx register function successful
-[net-g16:2511881] mca: base: components_register: component ucx register function successful
-[net-g16:2511881] mca: base: components_open: opening pml components
-[net-g16:2511881] mca: base: components_open: found loaded component ucx
-[net-g16:2511883] mca: base: components_open: opening pml components
-[net-g16:2511883] mca: base: components_open: found loaded component ucx
-[net-g16:2511882] mca: base: components_register: registering framework pml components
-[net-g16:2511882] mca: base: components_register: found loaded component ucx
-[net-g16:2511882] mca: base: components_register: component ucx register function successful
-[net-g16:2511882] mca: base: components_open: opening pml components
-[net-g16:2511882] mca: base: components_open: found loaded component ucx
-[net-g16:2511881] mca: base: components_open: component ucx open function successful
-[net-g16:2511881] select: initializing pml component ucx
-[net-g16:2511883] mca: base: components_open: component ucx open function successful
-[net-g16:2511882] mca: base: components_open: component ucx open function successful
-[net-g16:2511883] select: initializing pml component ucx
-[net-g16:2511882] select: initializing pml component ucx
-[net-g16:2511882] select: init returned priority 19
-[net-g16:2511882] selected ucx best priority 19
-[net-g16:2511882] select: component ucx selected
-[net-g16:2511881] select: init returned priority 19
-[net-g16:2511881] selected ucx best priority 19
-[net-g16:2511883] select: init returned priority 19
-[net-g16:2511883] selected ucx best priority 19
-[net-g16:2511883] select: component ucx selected
-[net-g16:2511881] select: component ucx selected
 MPI Init...
-[net-g16:2511880] mca: base: components_register: registering framework pml components
-[net-g16:2511880] mca: base: components_register: found loaded component ucx
-[net-g16:2511880] mca: base: components_register: component ucx register function successful
-[net-g16:2511880] mca: base: components_open: opening pml components
-[net-g16:2511880] mca: base: components_open: found loaded component ucx
-[net-g16:2511880] mca: base: components_open: component ucx open function successful
-[net-g16:2511880] select: initializing pml component ucx
-[net-g16:2511880] select: init returned priority 19
-[net-g16:2511880] selected ucx best priority 19
-[net-g16:2511880] select: component ucx selected
-[Rank 3]World Size 4, Local Size 3.
-[Rank 3]Detecting starts.
-[Rank 1]World Size 4, Local Size 1.
-[Rank 1]Detecting starts.
-[Rank 2]World Size 4, Local Size 2.
-[Rank 2]Detecting starts.
+[net-g16:1525549] mca: base: components_register: registering framework pml components
+[net-g16:1525549] mca: base: components_register: found loaded component ucx
+[net-g16:1525549] mca: base: components_register: component ucx register function successful
+[net-g16:1525549] mca: base: components_open: opening pml components
+[net-g16:1525549] mca: base: components_open: found loaded component ucx
+[net-g16:1525548] mca: base: components_register: registering framework pml components
+[net-g16:1525548] mca: base: components_register: found loaded component ucx
+[net-g16:1525548] mca: base: components_register: component ucx register function successful
+[net-g16:1525548] mca: base: components_open: opening pml components
+[net-g16:1525548] mca: base: components_open: found loaded component ucx
+[net-g16:1525544] mca: base: components_register: registering framework pml components
+[net-g16:1525544] mca: base: components_register: found loaded component ucx
+[net-g16:1525544] mca: base: components_register: component ucx register function successful
+[net-g16:1525544] mca: base: components_open: opening pml components
+[net-g16:1525544] mca: base: components_open: found loaded component ucx
+[net-g16:1525549] mca: base: components_open: component ucx open function successful
+[net-g16:1525549] select: initializing pml component ucx
+[net-g16:1525544] mca: base: components_open: component ucx open function successful
+[net-g16:1525548] mca: base: components_open: component ucx open function successful
+[net-g16:1525544] select: initializing pml component ucx
+[net-g16:1525548] select: initializing pml component ucx
+[net-g16:1525548] select: init returned priority 19
+[net-g16:1525548] selected ucx best priority 19
+[net-g16:1525548] select: component ucx selected
+[net-g16:1525544] select: init returned priority 19
+[net-g16:1525544] selected ucx best priority 19
+[net-g16:1525544] select: component ucx selected
+[net-g16:1525549] select: init returned priority 19
+[net-g16:1525549] selected ucx best priority 19
+[net-g16:1525549] select: component ucx selected
+[net-g16:1525542] mca: base: components_register: registering framework pml components
+[net-g16:1525542] mca: base: components_register: found loaded component ucx
+[net-g16:1525542] mca: base: components_register: component ucx register function successful
+[net-g16:1525542] mca: base: components_open: opening pml components
+[net-g16:1525542] mca: base: components_open: found loaded component ucx
+[net-g16:1525542] mca: base: components_open: component ucx open function successful
+[net-g16:1525542] select: initializing pml component ucx
+[net-g16:1525542] select: init returned priority 19
+[net-g16:1525542] selected ucx best priority 19
+[net-g16:1525542] select: component ucx selected
 [Rank 0]World Size 4, Local Size 0.
 [Rank 0]Detecting starts.
+[Rank 1]World Size 4, Local Size 1.
+[Rank 1]Detecting starts.
+[Rank 3]World Size 4, Local Size 3.
+[Rank 3]Detecting starts.
+[Rank 2]World Size 4, Local Size 2.
+[Rank 2]Detecting starts.
 [Rank0]Socket IPC Connections Built.
 [Rank1]Socket IPC Connections Built.
-[Rank2]Socket IPC Connections Built.
 [Rank3]Socket IPC Connections Built.
+[Rank2]Socket IPC Connections Built.
 [Rank 2] done infer task 1.
 [Rank 0] done infer task 1.
 [Rank 3] done infer task 1.
 [Rank 1] done infer task 1.
-[Rank 3] done infer task 2.
 [Rank 2] done infer task 2.
 [Rank 1] done infer task 2.
+[Rank 3] done infer task 2.
 [Rank 0] done infer task 2.
 [Rank 2] done infer task 3.
 [Rank 3] done infer task 3.
@@ -70,12 +70,12 @@ MPI Init...
 [Rank 1] done infer task 3.
 [Rank 0] save detected topology.
 detected topology dispatched.
-[Rank 3]World Size 4, Local Size 3.
-[Rank 3]Profiling starts.
 [Rank 1]World Size 4, Local Size 1.
 [Rank 1]Profiling starts.
 [Rank 2]World Size 4, Local Size 2.
 [Rank 2]Profiling starts.
+[Rank 3]World Size 4, Local Size 3.
+[Rank 3]Profiling starts.
 [Rank 0]World Size 4, Local Size 0.
 [Rank 0]Profiling starts.
 [Rank 0] Done packing tasks.
@@ -95,107 +95,99 @@ check intra task list:
 check inter task list:
 [Rank0]Socket IPC Connections Built.
 [Rank1]Socket IPC Connections Built.
-[Rank2]Socket IPC Connections Built.
 [Rank3]Socket IPC Connections Built.
+[Rank2]Socket IPC Connections Built.
 [Rank 1] Done intra tasks, start inter tasks.
-[Rank 2] Done intra tasks, start inter tasks.
 [Rank 0] Done intra tasks, start inter tasks.
 [Rank 3] Done intra tasks, start inter tasks.
+[Rank 2] Done intra tasks, start inter tasks.
 profiled topology sent to master.
 strategy dispatched.
-[Rank 3]World Size 4, Local Size 3.
-[Rank 3]Allreduce threads starts.
+[Rank 2]World Size 4, Local Size 2.
+[Rank 2]Allreduce threads starts.
 [Rank 1]World Size 4, Local Size 1.
 [Rank 1]Allreduce threads starts.
 [Rank 0]World Size 4, Local Size 0.
 [Rank 0]Allreduce threads starts.
-[Rank 2]World Size 4, Local Size 2.
-[Rank 2]Allreduce threads starts.
+[Rank 3]World Size 4, Local Size 3.
+[Rank 3]Allreduce threads starts.
 [Rank0]Socket IPC Connections Built.
 [Rank1]Socket IPC Connections Built.
 [Rank3]Socket IPC Connections Built.
 [Rank2]Socket IPC Connections Built.
-[Rank 3]Open shared memory 819204 for event records.
-[Rank 1]Open shared memory 819204 for event records.
-[Rank 3]Open shared memory 819205 for event records.
-[Rank 1]Open shared memory 819205 for event records.
-[Rank 0]Open shared memory 819204 for event records.
-[Rank 0]Open shared memory 819205 for event records.
-[Rank 2]Open shared memory 819205 for event records.
-[Rank 2]Open shared memory 819204 for event records.
+[Rank 3]Open shared memory 393250 for event records.
+[Rank 3]Open shared memory 393251 for event records.
+[Rank 1]Open shared memory 393251 for event records.
+[Rank 1]Open shared memory 393250 for event records.
+[Rank 2]Open shared memory 393251 for event records.
+[Rank 0]Open shared memory 393251 for event records.
+[Rank 2]Open shared memory 393250 for event records.
+[Rank 0]Open shared memory 393250 for event records.
 [Rank 1]global init done.
-[Rank 3]global init done.
 [Rank 0]global init done.
 [Rank 2]global init done.
-[Rank 3]transmission context setup time= 23.00(ms)
-[Rank 0]transmission context setup time= 29.00(ms)
-[Rank 2]transmission context setup time= 27.00(ms)
+[Rank 3]global init done.
+[Rank 2]transmission context setup time= 16.00(ms)
+[Rank 0]transmission context setup time= 25.00(ms)
+[Rank 3]transmission context setup time= 11.00(ms)
 [Rank 1]transmission context setup time= 17.00(ms)
-[Rank 3]enqueue: 0x7fb0a3e00000
-[Rank 1]enqueue: 0x7fd76ae00000
-[Rank 2]enqueue: 0x7fb943e00000
-[Rank 0]enqueue: 0x7f1407a00000
-[Rank 1]fetch: address 0x7fd76ae00000, tranSize: 16, tranChunkNum: 8
-[Rank 1]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 1)
-[Rank 2]fetch: address 0x7fb943e00000, tranSize: 16, tranChunkNum: 8
-[Rank 2]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 1)
-[Rank 0]fetch: address 0x7f1407a00000, tranSize: 16, tranChunkNum: 8
+[Rank 2]enqueue: 0x7f3943e00000
+[Rank 0]enqueue: 0x7fc027a00000
+[Rank 3]enqueue: 0x7f369be00000
+[Rank 1]enqueue: 0x7fb00ae00000
+[Rank 0]fetch: address 0x7fc027a00000, tranSize: 16, tranChunkNum: 8
 [Rank 0]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 0)
-[Rank 3]fetch: address 0x7fb0a3e00000, tranSize: 16, tranChunkNum: 8
+[Rank 1]fetch: address 0x7fb00ae00000, tranSize: 16, tranChunkNum: 8
+[Rank 1]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 1)
+[Rank 3]fetch: address 0x7f369be00000, tranSize: 16, tranChunkNum: 8
 [Rank 3]Relay GPU Control: (Recv: 0, Local: 1, Kernel: 0, Send: 1)
 [Rank 3]reduce work elem done.
+[Rank 2]fetch: address 0x7f3943e00000, tranSize: 16, tranChunkNum: 8
+[Rank 2]Relay GPU Control: (Recv: 0, Local: 1, Kernel: 0, Send: 1)
 [Rank 2]reduce work elem done.
 [Rank 1]reduce work elem done.
 [Rank 0]reduce work elem done.
-[Rank 1]allreduce time=  1.00(ms)
-[Rank 3]allreduce time=  1.00(ms)
-[Rank 2]allreduce time=  1.00(ms)
-[Rank 0]allreduce time=  1.00(ms)
-rank 1: tensor([4., 4., 4., 4., 4., 4., 4., 4., 4., 4., 4., 4., 4., 4., 4., 4.],
-       device='cuda:1')
 rank 2: tensor([4., 4., 4., 4., 4., 4., 4., 4., 4., 4., 4., 4., 4., 4., 4., 4.],
        device='cuda:2')
-rank 3: tensor([4., 4., 4., 4., 4., 4., 4., 4., 4., 4., 4., 4., 4., 4., 4., 4.],
-       device='cuda:3')
 rank 0: tensor([4., 4., 4., 4., 4., 4., 4., 4., 4., 4., 4., 4., 4., 4., 4., 4.],
        device='cuda:0')
-[Rank 1]enqueue: 0x7fd76ae00200
-[Rank 3]enqueue: 0x7fb0a3e00200
-[Rank 2]enqueue: 0x7fb943e00200
-[Rank 0]enqueue: 0x7f1407a00200
-[Rank 2]fetch: address 0x7fb943e00200, tranSize: 16, tranChunkNum: 8
-[Rank 1]fetch: address 0x7fd76ae00200, tranSize: 16, tranChunkNum: 8
-[Rank 1]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 1)
-[Rank 3]fetch: address 0x7fb0a3e00200, tranSize: 16, tranChunkNum: 8
+rank 3: tensor([4., 4., 4., 4., 4., 4., 4., 4., 4., 4., 4., 4., 4., 4., 4., 4.],
+       device='cuda:3')
+rank 1: tensor([4., 4., 4., 4., 4., 4., 4., 4., 4., 4., 4., 4., 4., 4., 4., 4.],
+       device='cuda:1')
+[Rank 2]enqueue: 0x7f3943e00200
+[Rank 0]enqueue: 0x7fc027a00200
+[Rank 3]enqueue: 0x7f369be00200
+[Rank 1]enqueue: 0x7fb00ae00200
+[Rank 3]fetch: address 0x7f369be00200, tranSize: 16, tranChunkNum: 8
 [Rank 3]Relay GPU Control: (Recv: 0, Local: 1, Kernel: 0, Send: 1)
-[Rank 0]fetch: address 0x7f1407a00200, tranSize: 16, tranChunkNum: 8
-[Rank 0]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 0)
-[Rank 2]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 1)
 [Rank 3]reduce work elem done.
+[Rank 2]fetch: address 0x7f3943e00200, tranSize: 16, tranChunkNum: 8
+[Rank 2]Relay GPU Control: (Recv: 0, Local: 1, Kernel: 0, Send: 1)
+[Rank 0]fetch: address 0x7fc027a00200, tranSize: 16, tranChunkNum: 8
+[Rank 0]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 0)
+[Rank 1]fetch: address 0x7fb00ae00200, tranSize: 16, tranChunkNum: 8
+[Rank 1]Relay GPU Control: (Recv: 1, Local: 1, Kernel: 1, Send: 1)
 [Rank 2]reduce work elem done.
 [Rank 0]reduce work elem done.
 [Rank 1]reduce work elem done.
-[Rank 0]allreduce time=  0.00(ms)
-[Rank 1]allreduce time=  0.00(ms)
-[Rank 3]allreduce time=  0.00(ms)
-[Rank 2]allreduce time=  0.00(ms)
+rank 3: tensor([8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8.],
+       device='cuda:3')
 rank 0: tensor([8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8.],
        device='cuda:0')
 rank 1: tensor([8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8.],
        device='cuda:1')
-rank 3: tensor([8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8.],
-       device='cuda:3')
 rank 2: tensor([8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8., 8.],
        device='cuda:2')
-[net-g16:2511880] mca: base: close: component ucx closed
-[net-g16:2511880] mca: base: close: unloading component ucx
-[net-g16:2511882] mca: base: close: component ucx closed
-[net-g16:2511882] mca: base: close: unloading component ucx
-[net-g16:2511881] mca: base: close: component ucx closed
-[net-g16:2511881] mca: base: close: unloading component ucx
-[net-g16:2511883] mca: base: close: component ucx closed
-[net-g16:2511883] mca: base: close: unloading component ucx
-[Rank 1] work threads quit.
+[net-g16:1525542] mca: base: close: component ucx closed
+[net-g16:1525542] mca: base: close: unloading component ucx
+[net-g16:1525548] mca: base: close: component ucx closed
+[net-g16:1525548] mca: base: close: unloading component ucx
+[net-g16:1525544] mca: base: close: component ucx closed
+[net-g16:1525544] mca: base: close: unloading component ucx
+[net-g16:1525549] mca: base: close: component ucx closed
+[net-g16:1525549] mca: base: close: unloading component ucx
+[Rank 2] work threads quit.
 [Rank 3] work threads quit.
 [Rank 0] work threads quit.
-[Rank 2] work threads quit.
+[Rank 1] work threads quit.
