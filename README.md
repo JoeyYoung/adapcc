@@ -75,6 +75,24 @@ The arguments include:
 - `parallel_degree:` &nbsp; the number of parallel concurrent transmissions within one communication context.
 - `profile_freq:` &nbsp; the frequency of profiling and graph construction, if enabled. 
 
+e.g., when train `main.py` with 4 computing nodes, each with 4 GPUs:
+```
+python launcher.py \
+    --num-process 16 \
+    --ips node1:4,node2:4,node3:4,node4:4 \
+    --master node1 \
+    --mpi-path ~/openmpi/bin/mpirun \
+    --net-device mlx5_0 \
+    --exec-file main.py \
+    --socket_port 5000 \
+    --entry_point 6 \
+    --logical_graph ./topology/logical_graph_4n.xml \
+    --strategy_file ./strategy/strategy_4n.xml \
+    --parallel_degree 4 \
+    --profile_freq 500  
+```
+We assume the dependencies are configured on each node.
+
 ### Primitive Example
 Here are steps on how to run a communication operator, refer to `adapcc.py`:
 
